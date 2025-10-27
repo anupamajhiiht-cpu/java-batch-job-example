@@ -9,8 +9,8 @@ public class BatchJobAppTest {
     public void testApp() {
         assertTrue(true);
     }
-    //@Test
-    //public void testShouldFail() {
-        //assertEquals(1, 2); //This will always fail
-    //}
+    @Test
+    public void testShouldFail() {
+        assertEquals(1, 2); //This will always fail
+    }
 }
